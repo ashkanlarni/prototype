@@ -1,0 +1,26 @@
+import java.util.*;
+import java.util.regex.Pattern;
+
+public class Main {
+    public static void main(String[] args) {
+        int[][] hour = new int[50][2];
+        int[][] minute = new int[50][2];
+        int i = 0;
+        String[] mix_input = new String[200];
+        Scanner input = new Scanner(System.in);
+        for (; ; i++) {
+            mix_input[i] = input.next(Pattern.co);
+            System.out.printf(mix_input[i]);
+            System.out.println();
+            System.out.println(i);
+            if (mix_input[i] == "eod") {
+                System.out.printf(mix_input[i]);
+                break;
+            }
+        }
+        for (int j = 0; j < i - 1; j++) {
+        }
+        /*String[] a = "asdadas".split("a");
+        System.out.print(a[3]);*/
+    }
+}
